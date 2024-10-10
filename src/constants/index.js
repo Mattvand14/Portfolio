@@ -123,10 +123,7 @@ import {
       iconBg: "#383E56",
       date: "September 2017 - May 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+
       ],
     },
     {
@@ -136,10 +133,7 @@ import {
       iconBg: "#383E56",
       date: "August 2021 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+
       ],
     },
     {
@@ -149,10 +143,7 @@ import {
       iconBg: "#383E56",
       date: "Ausgust 2022 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+
       ],
     },
     {
@@ -163,9 +154,7 @@ import {
       date: "August 2023 - May 2024",
       points: [
         "Took courses in Modern Web Development, Computer Hardware Organization, Models of Language and Computation, and Code Organization",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+
       ],
     },
     {
@@ -175,10 +164,7 @@ import {
       iconBg: "#383E56",
       date: "August 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+
       ],
     }
   ];
