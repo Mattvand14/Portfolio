@@ -118,7 +118,7 @@ import {
   const experiences = [
     {
       title: "HighSchool",
-      company_name: "Starbucks",
+      company_name: "Charles J Colgan HighSchool",
       icon: colganShark,
       iconBg: "#383E56",
       date: "September 2017 - May 2021",
@@ -128,42 +128,46 @@ import {
     },
     {
       title: "Freshman Year",
-      company_name: "Tesla",
+      company_name: "University of North Carolina",
       icon: unclogo,
       iconBg: "#383E56",
       date: "August 2021 - May 2022",
       points: [
+        ""
 
       ],
     },
     {
       title: "Sophmore Year",
-      company_name: "Shopify",
+      company_name: "University of North Carolina",
       icon: unclogo,
       iconBg: "#383E56",
       date: "Ausgust 2022 - May 2023",
       points: [
+        ""
 
       ],
     },
     {
       title: "Junior Year",
-      company_name: "Meta",
+      company_name: "University of North Carolina",
       icon: unclogo,
       iconBg: "#383E56",
       date: "August 2023 - May 2024",
       points: [
         "Took courses in Modern Web Development, Computer Hardware Organization, Models of Language and Computation, and Code Organization",
-
+        "Competed at Swimming NCAA's for the university, obtained a school record and All American Honorable Mention for my performance."
       ],
     },
     {
       title: "Senior Year",
-      company_name: "Meta",
+      company_name: "University of North Carolina",
       icon: unclogo,
       iconBg: "#383E56",
       date: "August 2024 - Present",
       points: [
+        "Courses in Probability and Statistics, Mobile Web Development, Algorithms and Analysis",
+        "Team Captain for the UNC Swim and Dive Men's team. Along with being enrolled in the Richard A Baddour Leadership Academy."
 
       ],
     }
