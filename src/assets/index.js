@@ -1,6 +1,6 @@
 import logo from "./logo.png";
+import leader from "./leader.png"
 import guitarlogo from "./guitarlogo.jpeg"
-import creator from "./creator.png";
 import athlete from "./athlete.jpg";
 import unclogo from "./unclogo.png";
 import github from "./github.png";
@@ -32,10 +32,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  leader,
   colganShark,
   logo,
   guitarlogo,
-  creator,
   athlete,
   unclogo,
   github,

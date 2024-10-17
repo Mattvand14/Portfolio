@@ -13,7 +13,7 @@ const ServiceCard = ({index, title, icon}) => {
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", .5 * index, .75)}
-        className='w-full green-pink-gradient p-[1px] rounded-[20px]
+        className='w-full bg-gradient-to-b from-[#7BAFD4] to-white p-[3px] rounded-[20px]
         shadow-card'
         >
 
@@ -58,12 +58,10 @@ const About = () => {
     className='mt-4 text-secondary text-[17px]
       max-w-3xl leading-[30]px'
     >
-      I am a student athlete at the University of North Carolina at
-      Chapel Hill. I am a computer sceience major, swimmer, guitar player
-      and enjoy producing music in my spare time. I am
-      a captain of our swim team and have great leadership qualities, 
-      as well as having extensive expereience with working and 
-      succedding as a team.
+      I am a student-athlete at the University of North Carolina at Chapel Hill, majoring in computer science. 
+      I’m a swimmer, guitarist, and enjoy producing music in my spare time. 
+      As a leader of the swim team, I have strong leadership skills and extensive experience in teamwork, 
+      excelling both individually and as part of a group.
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
