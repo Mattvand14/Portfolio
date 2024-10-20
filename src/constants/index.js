@@ -20,7 +20,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
+    movieWebsite,
     jobit,
     tripguide,
     threejs,
@@ -202,23 +202,23 @@ import {
   
   const projects = [
     {
-      name: "",
-      description:"",
+      name: "GoodFilms",
+      description:"This website allows users to search, favorite and rate movies. It uses the omdb api along with node express and regular javascript to save images",
       tags: [
         {
-          name: "",
+          name: "JavaScript",
           color: "",
         },
         {
-          name: "",
+          name: "Node",
           color: "",
         },
         {
-          name: "",
+          name: "CSS",
           color: "",
         },
       ],
-      image: "",
+      image: movieWebsite,
       source_code_link: "",
     },
     {
