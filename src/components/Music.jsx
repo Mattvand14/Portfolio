@@ -1,36 +1,42 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+import { Tilt } from 'react-tilt';
+import { fadeIn } from '../utils/motion';
+import Waveform from './Waveform';
 import { SectionWrapper } from '../hoc';
-import { motion } from "framer-motion";
-import { fadeIn, textVariant } from "../utils/motion";
-import { styles } from "../styles";
-import {Tilt} from 'react-tilt';
+import { textVariant } from '../utils/motion';
+import { styles } from '../styles';
 
-const MusicCard = ({ song }) => {
+const MusicCard = ({ song, songUrl }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", 0, 0.75)}>
+    <motion.div variants={fadeIn('up', 'spring', 0, 0.75)}>
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className='relative bg-gradient-to-b from-[#7BAFD4] to-white p-[3px] rounded-2xl sm:w-[360px] w-full shadow-card'
+        className="relative bg-gradient-to-b from-[#7BAFD4] to-white p-[3px] rounded-2xl sm:w-[360px] w-full shadow-card"
       >
-        <div className='bg-tertiary p-5 rounded-2xl w-full h-full'>
-          <p className='text-lg font-semibold'>{song}</p>
-          <audio controls src={`music/${song}`} />
+        <div className="bg-tertiary p-5 rounded-2xl w-full h-full">
+          <p className="text-lg font-semibold">{song}</p>
+          <div>
+            <image />
+          </div>
+          <Waveform songUrl={songUrl} />  {/* Add waveform component */}
         </div>
       </Tilt>
     </motion.div>
   );
 };
 
+
 const Music = () => {
   const songs = [
-    'Up North.wav',
-    'fun edm.mp3',
-    'when we began.mp3',
-    'Missed Me mix.mp3'
+    { title: 'Up North', file: 'Up North.wav' },
+    { title: 'Fun EDM', file: 'fun edm.mp3' },
+    { title: 'When We Began', file: 'when we began.mp3' },
+    { title: 'Missed Me Mix', file: 'Missed Me mix.mp3' }
   ];
 
   return (
@@ -40,9 +46,13 @@ const Music = () => {
         <h2 className={`${styles.sectionHeadText}`}>Songs.</h2>
       </motion.div>
 
-      <div className='flex flex-wrap gap-4'>
+      <div className="flex flex-wrap gap-4">
         {songs.map((song, index) => (
-          <MusicCard key={index} song={song} index={index} />
+          <MusicCard 
+            key={index} 
+            song={song.title} 
+            songUrl={`music/${song.file}`}  // Pass the full song URL here
+          />
         ))}
       </div>
     </>
@@ -50,3 +60,4 @@ const Music = () => {
 };
 
 export default SectionWrapper(Music, "");
+
