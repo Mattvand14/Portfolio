@@ -192,23 +192,27 @@ import {
   
   const projects = [
     {
-      name: "GoodFilms",
-      description:"This website allows users to search, favorite and rate movies. It uses the omdb api along with node express and regular javascript to save images",
+      name: "MIC",
+      description:"Your Music Industry ChatBot, a custom AI Agent that can answer all your music industry needs. Has currated knowledge on topics such as copyright law, marketing, revenue diversification, and more. Helpful to artsits who are just starting out or experts looking to expand their audience.",
       tags: [
         {
           name: "JavaScript",
           color: "",
         },
         {
-          name: "Node",
+          name: "React",
           color: "",
         },
         {
-          name: "CSS",
+          name: "TailWind",
           color: "",
         },
+        {
+          name:"",
+          color:"",
+        }
       ],
-      image: movieWebsite,
+      image: none,
       source_code_link: "",
     },
     {

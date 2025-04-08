@@ -24,9 +24,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import movieWebsite from "./movieWebsite.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import movieWebsite from "./.png";
+import MIC from "./MIC.png";
 
 export {
   leader,
@@ -55,7 +54,5 @@ export {
   shopify,
   starbucks,
   tesla,
-  movieWebsite,
-  jobit,
-  tripguide,
+  MIC,
 };
