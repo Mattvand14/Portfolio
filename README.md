@@ -1,8 +1,36 @@
-# React + Vite
+🎓 3D Portfolio – React | Tailwind | JS
+Welcome to my interactive 3D portfolio, where design meets functionality. This project is a showcase of my academic journey, creative projects, and deep passion for music production. Built using React, Tailwind CSS, and JavaScript, this site reflects not just who I am as a developer, but also as an artist and innovator.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔍 Overview
+This portfolio features a dynamic and immersive 3D experience designed to engage users while highlighting:
 
-Currently, two official plugins are available:
+📘 Academic Achievements – My educational background and milestones.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💻 Software Projects – A curated selection of my development work.
+
+🎧 Music Production – A look into my creative world with beats, samples, and studio projects.
+
+🚀 Technologies Used
+React.js – Core library for building user interfaces.
+
+Tailwind CSS – Utility-first CSS framework for fast styling.
+
+Three.js / React Three Fiber (if used) – For rendering the 3D environment.
+
+Framer Motion – For smooth animations and transitions.
+
+JavaScript (ES6+) – The backbone of interactivity and logic.
+
+🎯 Features
+Responsive layout with a clean, modern aesthetic.
+
+Smooth scroll and transitions for a seamless UX.
+
+Audio visualizer elements for the music section (if included).
+
+3D interactive models or scenes for an engaging intro/experience.
+
+Modular and component-driven structure for scalability.
+
+🧠 Inspiration
+I wanted to create more than just a resume — I aimed to build an interactive experience that embodies both the logical structure of coding and the artistic rhythm of music. This portfolio brings together my skills in development and my creative drive in a space that's uniquely mine.
