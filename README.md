@@ -20,7 +20,7 @@ This portfolio features a dynamic and immersive 3D experience designed to engage
 - **Tailwind CSS** – Utility-first CSS framework for fast styling.
 - **JavaScript (ES6+)** – The backbone of interactivity and logic.
 - **Framer Motion** – For smooth animations and transitions.
-- **Three.js / React Three Fiber** *(if used)* – For rendering the 3D environment.
+- **Three.js / React Three Fiber** – For rendering the 3D environment.
 
 ---
 
@@ -28,7 +28,7 @@ This portfolio features a dynamic and immersive 3D experience designed to engage
 
 - ✅ Responsive layout with a clean, modern aesthetic
 - ✅ Smooth scroll and transitions for a seamless UX
-- ✅ Audio visualizer elements in the music section *(if implemented)*
+- ✅ Audio visualizer elements in the music section
 - ✅ Interactive 3D models or scenes
 - ✅ Modular and component-driven structure for scalability
 
@@ -40,12 +40,12 @@ I wanted to create more than just a resume — I aimed to build an **interactive
 
 ---
 
-## 🛠️ Setup & Run Locally
+## 🛠️ Follow the Vercel Host Link or Setup and Run Locally
 
 Make sure you have **Node.js** and **npm** installed.
 
 ```bash
-git clone https://github.com/yourusername/3d-portfolio.git
+git clone https://github.com/Mattvand14/Portfolio.git
 cd 3d-portfolio
 npm install
 npm run dev
