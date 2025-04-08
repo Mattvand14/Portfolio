@@ -1,74 +1,40 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Tilt } from 'react-tilt';
-import { fadeIn } from '../utils/motion';
-import Waveform from './Waveform';
-import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
+import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
-
-const MusicCard = ({ song, songUrl }) => {
-  return (
-    <motion.div variants={fadeIn('up', 'spring', 0, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className="relative bg-gradient-to-b from-[#7BAFD4] to-white p-[3px] rounded-2xl sm:w-[360px] w-full shadow-card"
-      >
-        <div className="bg-tertiary p-5 rounded-2xl w-full h-full">
-          <p className="text-lg font-semibold">{song}</p>
-          <div>
-            <image />
-          </div>
-          <Waveform songUrl={songUrl} />  {/* Add waveform component */}
-        </div>
-      </Tilt>
-    </motion.div>
-  );
-};
-
+import SoundCloudEmbed from './SoundCloudEmbed';
 
 const Music = () => {
-  const songs = [
-    { title: 'Angel', file: 'Angel Final.wav' },
-    { title: 'If I', file: 'If I final pre volume.wav' },
-    { title: 'Into You', file: 'Into You Final.wav' },
-    { title: 'Lunar Eclipse', file: 'Lunar Ecplise final pre volume.wav' },
-    { title: 'Madragada', file: 'Madragada actual final pre volume.wav' },
-    { title: 'POWER', file: 'POWER final pre volume.wav' },
-    { title: 'Shanghai Bass', file: 'shanghai bass final pre volume.wav' },
-    { title: 'Shanghai Bass House Remix', file: 'shanghai bass house remix final.wav' },
-    { title: 'The Corridor', file: 'The Corridor final pre volume.wav' },
-    { title: 'Unanswered Prayers', file: 'Unanswered Prayers 3.wav' },
-    { title: 'When We Began', file: 'when we began.mp3' },
+  const trackUrls = [
+    'https://soundcloud.com/matthew-vandeusen/davids-angels-1?si=b89aaf801e824a2ab379e0787759f0b9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    'https://soundcloud.com/matthew-vandeusen/into-you-2?si=5045cb0b0e744aa383dccfcdf4ba8f04&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    'https://soundcloud.com/matthew-vandeusen/unanswered-prayers?si=4a529251285641eca037aa465ab70e1f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    'https://soundcloud.com/matthew-vandeusen/shanghai-bass-club-edit-3?si=33b4af1b926b452bb2c0e16cf542c5a5&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    'https://soundcloud.com/matthew-vandeusen/if-i-1?si=d255714bf2c940b38edddf2be03e0627&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    'https://soundcloud.com/matthew-vandeusen/red-corridor?si=3de102037bf842108e3f4b70cce80b4a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    'https://soundcloud.com/matthew-vandeusen/are-you-ready-1?si=56d73e37db0b43e3beb91a9c2bae2145&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    'https://soundcloud.com/matthew-vandeusen/shanghai-bass?si=2efaa99b36c74d8a8f83a43a78daf0b5&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    'https://soundcloud.com/matthew-vandeusen/lunar-ecplise?si=1742a005b938413591e17817a6cccb3f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    'https://soundcloud.com/matthew-vandeusen/blue-light?si=b12aad2a0c52469bbdeb64fc79f67680&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    'https://soundcloud.com/matthew-vandeusen/when-we-began?si=039a04ede1e54ad7aa2650e5fe234a4a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    'https://soundcloud.com/matthew-vandeusen/byte-choir?si=e83994a6db1f4244b19af4db6455af2a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
   ];
 
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText}`}>My Music</p>
-        <h2 className={`${styles.sectionHeadText}`}>Songs.</h2>
+        <p className={styles.sectionSubText}>My Music</p>
+        <h2 className={styles.sectionHeadText}>SoundCloud Songs</h2>
       </motion.div>
 
-      <div className="flex flex-wrap gap-4">
-        {songs.map((song, index) => (
-          <MusicCard 
-            key={index} 
-            song={song.title} 
-            songUrl={`music/${song.file}`}  // Pass the full song URL here
-          />
+      <div className="flex flex-col gap-10 items-center">
+        {trackUrls.map((url, index) => (
+          <SoundCloudEmbed key={index} trackUrl={url} />
         ))}
-      </div>
-
-      <div>
-        
       </div>
     </>
   );
 };
 
-export default SectionWrapper(Music, "music");
-
+export default SectionWrapper(Music, 'music');
