@@ -28,7 +28,7 @@ const Music = () => {
         <h2 className={styles.sectionHeadText}>SoundCloud Songs</h2>
       </motion.div>
 
-      <div className="flex flex-col gap-10 items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
         {trackUrls.map((url, index) => (
           <SoundCloudEmbed key={index} trackUrl={url} />
         ))}
