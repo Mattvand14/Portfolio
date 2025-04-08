@@ -21,7 +21,7 @@ const SoundCloudEmbed = ({ trackUrl }) => {
 
   return (
     <div
-      className="w-full max-w-sm h-[120px]"
+      className="w-full max-w-sm h-[120px] overflow-hidden"
       dangerouslySetInnerHTML={{ __html: embedHtml }}
     />
   );
