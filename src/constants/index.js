@@ -37,12 +37,12 @@ import {
       id: "work",
       title: "Work",
     },
+    {id: "music",
+      title: "Music",
+    },
     {
       id: "contact",
       title: "Contact",
-    },
-    {id: "music",
-     title: "Music",
     }
   ];
   
