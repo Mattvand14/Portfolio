@@ -33,10 +33,17 @@ const MusicCard = ({ song, songUrl }) => {
 
 const Music = () => {
   const songs = [
-    { title: 'Up North', file: 'Up North.wav' },
-    { title: 'Fun EDM', file: 'fun edm.mp3' },
+    { title: 'Angel', file: 'Angel Final.wav' },
+    { title: 'If I', file: 'If I final pre volume.wav' },
+    { title: 'Into You', file: 'Into You Final.wav' },
+    { title: 'Lunar Eclipse', file: 'Lunar Ecplise final pre volume.wav' },
+    { title: 'Madragada', file: 'Madragada actual final pre volume.wav' },
+    { title: 'POWER', file: 'POWER final pre volume.wav' },
+    { title: 'Shanghai Bass', file: 'shanghai bass final pre volume.wav' },
+    { title: 'Shanghai Bass House Remix', file: 'shanghai bass house remix final.wav' },
+    { title: 'The Corridor', file: 'The Corridor final pre volume.wav' },
+    { title: 'Unanswered Prayers', file: 'Unanswered Prayers 3.wav' },
     { title: 'When We Began', file: 'when we began.mp3' },
-    { title: 'Missed Me Mix', file: 'Missed Me mix.mp3' }
   ];
 
   return (
