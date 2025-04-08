@@ -55,9 +55,13 @@ const Music = () => {
           />
         ))}
       </div>
+
+      <div>
+        
+      </div>
     </>
   );
 };
 
-export default SectionWrapper(Music, "");
+export default SectionWrapper(Music, "music");
 
