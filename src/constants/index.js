@@ -147,7 +147,8 @@ import {
       date: "August 2023 - May 2024",
       points: [
         "Took courses in Modern Web Development, Computer Hardware Organization, Models of Language and Computation, and Code Organization",
-        "Competed at Swimming NCAA's for the university, obtained a school record and All American Honorable Mention for my performance."
+        "Competed at the NCAA Division 1 Swimming Championships for the university, obtained a school record and All American Honorable Mention for my performance.",
+        "Developed a website where users can search films through the omdb API to rate and rank movies"
       ],
     },
     {
@@ -155,11 +156,15 @@ import {
       company_name: "University of North Carolina",
       icon: unclogo,
       iconBg: "#383E56",
-      date: "August 2024 - Present",
+      date: "August 2024 - May 2025",
       points: [
-        "Courses in Probability and Statistics, Mobile Web Development, Algorithms and Analysis",
-        "Team Captain for the UNC Swim and Dive Men's team. Along with being enrolled in the Richard A Baddour Leadership Academy."
-
+        "Courses in Probability and Statistics, Mobile Web Development, Algorithms and Analysis, Robotics, Artificial Intelligence and AI In Business",
+        "Team Captain for the UNC Swim and Dive Men's team. Along with being enrolled in the Richard A Baddour Leadership Academy.",
+        "Competed at the NCAA Division 1 Swimming Championships for the university, and held multiple school records",
+        "Developed an Android App that takes pictures, analyzes pictures with Google's Vision API and connects to Gemini LLM to write and read the user a story about the picture",
+        "Built an AI ChatBot, MIC, that focuses on the Business side of Music Industry",
+        "Worked Collaboratively on a project to exam sentinment and emotion analysis within artifical intelligence and LLMs",
+        "Worked Collaboratively on a project to analyze a large Zillow data set and provide a write up to a stakeholder in the real estate industry"
       ],
     }
   ];
