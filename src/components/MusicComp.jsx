@@ -30,7 +30,7 @@ const Music = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
         {trackUrls.map((url, index) => (
-          <SoundCloudEmbed key={index} trackUrl={url} />
+          <SoundCloudEmbed key={index} trackUrl={url} height={120}/>
         ))}
       </div>
     </>
