@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const SoundCloudEmbed = ({ trackUrl }) => {
+const SoundCloudEmbed = ({ trackUrl, height = 120 }) => {
   const [embedHtml, setEmbedHtml] = useState('');
 
   useEffect(() => {
@@ -10,14 +10,17 @@ const SoundCloudEmbed = ({ trackUrl }) => {
           `https://soundcloud.com/oembed?format=json&url=${encodeURIComponent(trackUrl)}`
         );
         const data = await res.json();
-        setEmbedHtml(data.html);
+
+        // Manually replace the height in the returned HTML
+        const resizedHtml = data.html.replace(/height="\d+"/, `height="${height}"`);
+        setEmbedHtml(resizedHtml);
       } catch (err) {
         console.error('SoundCloud embed fetch failed:', err);
       }
     };
 
     fetchEmbed();
-  }, [trackUrl]);
+  }, [trackUrl, height]);
 
   return (
     <div
