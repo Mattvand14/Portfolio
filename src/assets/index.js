@@ -25,6 +25,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import MIC from "./MIC.png";
+import photorec from "./photorec.png"
 
 export {
   leader,
@@ -51,4 +52,5 @@ export {
   starbucks,
   tesla,
   MIC,
+  photorec
 };

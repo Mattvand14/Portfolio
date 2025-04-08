@@ -24,7 +24,8 @@ import {
     jobit,
     tripguide,
     threejs,
-    MIC
+    MIC,
+    photorec
   } from "../assets";
   
   export const navLinks = [
@@ -114,6 +115,8 @@ import {
       iconBg: "#383E56",
       date: "September 2017 - May 2021",
       points: [
+        "Finished 7th in class out of 700+ along with a 4.7 gpa",
+        ""
 
       ],
     },
@@ -124,7 +127,7 @@ import {
       iconBg: "#383E56",
       date: "August 2021 - May 2022",
       points: [
-        ""
+        "Took courses in Introductory Programming, Calculus 1 and Calculus 2"
 
       ],
     },
@@ -135,7 +138,7 @@ import {
       iconBg: "#383E56",
       date: "Ausgust 2022 - May 2023",
       points: [
-        ""
+        "Took Courses in Linear Algebra, Data Structures and Algorithms, Discrete Math and Multivariable Calculus",
 
       ],
     },
@@ -203,44 +206,52 @@ import {
       tags: [
         {
           name: "JavaScript",
-          color: "",
+          color: "Green",
         },
         {
           name: "React",
-          color: "",
+          color: "Red",
         },
         {
           name: "TailWind",
-          color: "",
+          color: "Purple",
         },
         {
-          name:"",
-          color:"",
+          name:"AI",
+          color:"Yellow",
         }
       ],
       image: MIC,
-      source_code_link: "",
+      source_code_link: "https://github.com/Mattvand14/myAI",
     },
     {
-      name: "",
+      name: "Photo Recognition App",
       description:
-        "",
+        "An android app that allows user to take photos, or draw sketches. Then using Google Vision API, it gives tags to these images based on object recognition and stores them in an SQLite database. Finally the user can select images or sketches in a seperate page and generate a story using the Gemini LLM API.",
       tags: [
         {
-          name: "",
-          color: "",
+          name: "Java",
+          color: "Red",
         },
         {
-          name: "",
-          color: "",
+          name: "SQLite",
+          color: "Green",
         },
         {
-          name: "",
-          color: "",
+          name: "Android SDK",
+          color: "Purple",
         },
+        {
+          name:"Google Vision",
+          color:"Pink"
+        },
+        {
+          name:"Gemini LLM",
+          color:"Orange"
+        }
       ],
-      image: "",
-      source_code_link: "",
+      image: photorec,
+      source_code_link: "https://github.com/Mattvand14/Android-Photo-Recognition",
     },
     {
       name: "",
