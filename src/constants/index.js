@@ -24,6 +24,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    MIC
   } from "../assets";
   
   export const navLinks = [
@@ -212,7 +213,7 @@ import {
           color:"",
         }
       ],
-      image: none,
+      image: MIC,
       source_code_link: "",
     },
     {
