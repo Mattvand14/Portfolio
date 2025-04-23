@@ -31,7 +31,7 @@ const Contact = () => {
         <motion.div variants={slideIn('left', 'tween', .2, 1)}
         className='flex-[.75] bg-black-100 p-8 rounded-2xl'>
           <p className={styles.sectionSubText}>
-            Get in touch (Not functional atm) </p>
+            Get in touch (Not functional atm email at mvan-deusen@unc.edu or mattvand14@gmail.com) </p>
           <h3 className={styles.sectionHeadText}>Contact.</h3>
 
 

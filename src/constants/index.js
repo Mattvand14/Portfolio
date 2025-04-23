@@ -163,33 +163,6 @@ import {
     }
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
       name: "MIC",
@@ -222,11 +195,11 @@ import {
       tags: [
         {
           name: "Java",
-          color: "",
+          color: "violet-text-gradient",
         },
         {
           name: "SQLite",
-          color: "",
+          color: "yellow-text-gradient",
         },
         {
           name: "Android SDK",
@@ -238,7 +211,7 @@ import {
         },
         {
           name:"Gemini LLM",
-          color:""
+          color:"green-text-gradient"
         }
       ],
       image: photorec,
@@ -250,7 +223,7 @@ import {
         "An interactive globe that allows users to search for songs and artists. The user can click on a country and a top 5 user playlist from that country will be displayed.",
       tags: [
         {
-          name: "Spotofy API",
+          name: "Spotify API",
           color: "blue-text-gradient",
         },
         {
@@ -267,4 +240,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
