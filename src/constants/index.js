@@ -197,19 +197,19 @@ import {
       tags: [
         {
           name: "JavaScript",
-          color: "Green",
+          color: "",
         },
         {
           name: "React",
-          color: "Red",
+          color: "",
         },
         {
           name: "TailWind",
-          color: "Purple",
+          color: "",
         },
         {
           name:"AI",
-          color:"Yellow",
+          color:"",
         }
       ],
       image: MIC,
@@ -222,23 +222,23 @@ import {
       tags: [
         {
           name: "Java",
-          color: "Red",
+          color: "",
         },
         {
           name: "SQLite",
-          color: "Green",
+          color: "",
         },
         {
           name: "Android SDK",
-          color: "Purple",
+          color: "blue-text-gradient",
         },
         {
           name:"Google Vision",
-          color:"Pink"
+          color:"pink-text-gradient"
         },
         {
           name:"Gemini LLM",
-          color:"Orange"
+          color:""
         }
       ],
       image: photorec,
@@ -259,7 +259,7 @@ import {
         },
         {
           name: "React",
-          color: "red-text-gradient",
+          color: "orange-text-gradient",
         },
       ],
       image: spotifyglobe,
