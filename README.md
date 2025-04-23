@@ -46,6 +46,6 @@ Make sure you have **Node.js** and **npm** installed.
 
 ```bash
 git clone https://github.com/Mattvand14/Portfolio.git
-cd 3d-portfolio
+cd Portfolio
 npm install
 npm run dev

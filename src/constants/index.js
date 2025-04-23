@@ -5,27 +5,18 @@ import {
     leader,
     unclogo,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    movieWebsite,
-    jobit,
-    tripguide,
     threejs,
     MIC,
-    photorec
+    photorec,
+    spotifyglobe
+
   } from "../assets";
   
   export const navLinks = [
@@ -254,25 +245,25 @@ import {
       source_code_link: "https://github.com/Mattvand14/Android-Photo-Recognition",
     },
     {
-      name: "",
+      name: "Spotify Globe Reccomendation",
       description:
-        "",
+        "An interactive globe that allows users to search for songs and artists. The user can click on a country and a top 5 user playlist from that country will be displayed.",
       tags: [
         {
-          name: "",
-          color: "",
+          name: "Spotofy API",
+          color: "blue-text-gradient",
         },
         {
-          name: "",
-          color: "",
+          name: "JavaScript",
+          color: "green-text-gradient",
         },
         {
-          name: "",
-          color: "",
+          name: "React",
+          color: "red-text-gradient",
         },
       ],
-      image: "",
-      source_code_link: "",
+      image: spotifyglobe,
+      source_code_link: "https://github.com/Mattvand14/Spotify-Globe-Reccomender",
     },
   ];
   

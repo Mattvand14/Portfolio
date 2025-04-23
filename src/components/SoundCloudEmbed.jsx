@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const SoundCloudEmbed = ({ trackUrl, height = 120 }) => {
+const SoundCloudEmbed = ({ trackUrl, height = 135 }) => {
   const [embedHtml, setEmbedHtml] = useState('');
 
   useEffect(() => {
