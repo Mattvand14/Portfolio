@@ -61,7 +61,7 @@ const About = () => {
       I am a student-athlete at the University of North Carolina at Chapel Hill, majoring in computer science. 
       I’m a swimmer, guitarist, and enjoy producing music in my spare time. 
       As a leader of the swim team, I have strong leadership skills and extensive experience in teamwork, 
-      excelling both individually and as part of a group.
+      and excelling both individually and as part of a group.
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
