@@ -1,51 +1,34 @@
-# 🎓 3D Portfolio – React | Tailwind | JavaScript
+# 3D Portfolio using React, Tailwind, and Three.js
 
-Welcome to my interactive **3D portfolio**, where design meets functionality. This project is a showcase of my academic journey, creative projects, and deep passion for **music production**. Built using **React**, **Tailwind CSS**, and **JavaScript**, this site reflects not just who I am as a developer, but also as an artist and innovator.
-
----
-
-## 🔍 Overview
-
-This portfolio features a dynamic and immersive 3D experience designed to engage users while highlighting:
-
-- 📘 **Academic Achievements** – My educational background and milestones.
-- 💻 **Software Projects** – A curated selection of my development work.
-- 🎧 **Music Production** – A look into my creative world with beats, samples, and studio projects.
+This project is a showcase of my academic journey, creative projects, and passion for music production. Built using React, TailWind, and Three.js, this site reflects my academic, athletic, and professional career along with my music.
 
 ---
 
-## 🚀 Technologies Used
+## Overview
 
-- **React.js** – Core library for building user interfaces.
-- **Tailwind CSS** – Utility-first CSS framework for fast styling.
-- **JavaScript (ES6+)** – The backbone of interactivity and logic.
-- **Framer Motion** – For smooth animations and transitions.
-- **Three.js / React Three Fiber** – For rendering the 3D environment.
+This portfolio features an interactive 3D experience designed to highlight my career
 
----
-
-## 🎯 Features
-
-- ✅ Responsive layout with a clean, modern aesthetic
-- ✅ Smooth scroll and transitions for a seamless UX
-- ✅ Audio visualizer elements in the music section
-- ✅ Interactive 3D models or scenes
-- ✅ Modular and component-driven structure for scalability
+- **Academic Achievements**
+- **Athletic Accomplishments**
+- **Software Projects** 
+- **Music Production** 
 
 ---
 
-## 🧠 Inspiration
+## Technologies Used
 
-I wanted to create more than just a resume — I aimed to build an **interactive experience** that embodies both the **logical structure** of coding and the **artistic rhythm** of music. This portfolio brings together my skills in development and my creative drive in a space that's uniquely mine.
+- **React.js**
+- **Tailwind CSS** 
+- **JavaScript (ES6+)** 
+- **Framer Motion** 
+- **Three.js / React Three Fiber** 
 
 ---
 
-## 🛠️ Follow the Vercel Host Link or Setup and Run Locally
+## Features
 
-Make sure you have **Node.js** and **npm** installed.
+- Responsive 3D layout with customized 3D assests
+- Audio visualizer elements in the music section using Soundcloud
+- Timeline and projects listed as React elements
 
-```bash
-git clone https://github.com/Mattvand14/Portfolio.git
-cd Portfolio
-npm install
-npm run dev
+## Follow the Vercel host link to view
